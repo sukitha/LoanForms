@@ -34,10 +34,10 @@ window.onload = function (e) {
             type: 'text',
             text: "loan request has been send to the loan department"
         }]).then(function () {
-            window.alert("Request Succeeded");
+
             liff.closeWindow();
         }).catch(function (error) {
-            window.alert("Error sending message: " + error);
+           
             liff.closeWindow();
         });
     });
