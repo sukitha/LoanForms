@@ -808,3 +808,22 @@ div.calendar {
   margin-top:-10px;
   background:white;
 }
+
+.rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #aaad87;
+  padding: 20px;
+  width:-webkit-fill-available;
+  height:-webkit-fill-available;
+}
+
+.rcorners2 > h2
+{
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+.input-warp{
+  border: 1px solid #fdf5f0;
+  margin-bottom: 0;
+}

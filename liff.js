@@ -32,15 +32,13 @@ window.onload = function (e) {
         // https://developers.line.me/ja/reference/liff/#liffsendmessages()
         liff.sendMessages([{
             type: 'text',
-            text: "Hello Test!!"
-        }, {
-            type: 'sticker',
-            packageId: '2',
-            stickerId: '144'
+            text: "loan request has been send to the loan department"
         }]).then(function () {
-            window.alert("Hello Test!!");
+            window.alert("Request Succeeded");
+            liff.closeWindow();
         }).catch(function (error) {
             window.alert("Error sending message: " + error);
+            liff.closeWindow();
         });
     });
 };
