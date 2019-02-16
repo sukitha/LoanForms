@@ -8,13 +8,13 @@ window.onload = function (e) {
 
     
     // https://developers.line.me/ja/reference/liff/#liffclosewindow()
-    document.getElementById('closewindowbutton').addEventListener('click', function () {
+    /*document.getElementById('closewindowbutton').addEventListener('click', function () {
         liff.closeWindow();
-    });
+    });*/
 
     
     // https://developers.line.me/ja/reference/liff/#liffopenwindow()
-    document.getElementById('openwindowbutton').addEventListener('click', function () {
+    /*document.getElementById('openwindowbutton').addEventListener('click', function () {
         liff.openWindow({
             url: 'https://line.me'
         });
@@ -25,7 +25,7 @@ window.onload = function (e) {
             url: 'https://line.me',
             external: true
         });
-    });
+    });*/
 
   
     document.getElementById('sendmessagebutton').addEventListener('click', function () {
