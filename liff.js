@@ -30,7 +30,7 @@ window.onload = function (e) {
   
     document.getElementById('sendmessagebutton').addEventListener('click', function () {
         // https://developers.line.me/ja/reference/liff/#liffsendmessages()
-        liff.sendMessages([{
+        liff.postMessage([{
             type: 'text',
             text: "loan request has been send to the loan department"
         }]).then(function () {
