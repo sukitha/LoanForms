@@ -296,6 +296,8 @@ input.text {
   font-size: 45px;
   margin: 0;
   padding: 2px 0;
+  width:500px;
+  padding-left:10px;
 }
 
 input.file {

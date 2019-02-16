@@ -170,43 +170,6 @@
 	<link rel="stylesheet" type="text/css" href="view.css" media="all">
 	<script type="text/javascript" src="view.js"></script>
 	<script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
-	<script>
-        liff.init(
-            data => {
-                alert(data.context.userId);
-                // Now you can call LIFF API
-                const userId = data.context.userId;
-            },
-            err => {
-                // LIFF initialization failed
-            }
-        );
-        loadSite = function () {
-
-
-            liff.openWindow({
-                url: 'https://www.google.com',
-                external: true
-            });
-        };
-
-        sendFormData = function () {
-
-            liff.sendMessages([{
-                type: 'text',
-                text: 'Hello, World!'
-            }])
-                .then(() => {
-                    alert('message sent');
-                })
-                .catch((err) => {
-                    alert(err);
-                });
-
-
-            liff.closeWindow();
-        }
-	</script>
 </head>
 <body id="main_body">
 <img id="top" src="top.png" alt="">
