@@ -845,10 +845,10 @@ div.calendar {
   margin: 10px 0;
   width: 500%;
 }
-.range_design:focus {
+.range-wrap:focus {
   outline: none;
 }
-.range_design::-webkit-slider-runnable-track {
+.range-wrap::-webkit-slider-runnable-track {
   width: 100%;
   height: 10px;
   cursor: pointer;
@@ -858,7 +858,7 @@ div.calendar {
   border-radius: 5px;
   border: 1px solid #000000;
 }
-.range_design::-webkit-slider-thumb {
+.range-wrap::-webkit-slider-thumb {
   box-shadow: 1px 1px 1px #000000;
   border: 1px solid #000000;
   height: 30px;
@@ -869,10 +869,10 @@ div.calendar {
   -webkit-appearance: none;
   margin-top: -11px;
 }
-.range_design:focus::-webkit-slider-runnable-track {
+.range-wrap:focus::-webkit-slider-runnable-track {
   background: #3071A9;
 }
-.range_design::-moz-range-track {
+.range-wrap::-moz-range-track {
   width: 100%;
   height: 10px;
   cursor: pointer;
@@ -882,7 +882,7 @@ div.calendar {
   border-radius: 5px;
   border: 1px solid #000000;
 }
-.range_design::-moz-range-thumb {
+.range-wrap::-moz-range-thumb {
   box-shadow: 1px 1px 1px #000000;
   border: 1px solid #000000;
   height: 30px;
@@ -891,7 +891,7 @@ div.calendar {
   background: #FFFFFF;
   cursor: pointer;
 }
-.range_design::-ms-track {
+.range-wrap::-ms-track {
   width: 100%;
   height: 10px;
   cursor: pointer;
@@ -900,19 +900,19 @@ div.calendar {
   border-color: transparent;
   color: transparent;
 }
-.range_design::-ms-fill-lower {
+.range-wrap::-ms-fill-lower {
   background: #3071A9;
   border: 1px solid #000000;
   border-radius: 10px;
   box-shadow: 1px 1px 1px #000000;
 }
-.range_design::-ms-fill-upper {
+.range-wrap::-ms-fill-upper {
   background: #3071A9;
   border: 1px solid #000000;
   border-radius: 10px;
   box-shadow: 1px 1px 1px #000000;
 }
-.range_design::-ms-thumb {
+.range-wrap::-ms-thumb {
   margin-top: 1px;
   box-shadow: 1px 1px 1px #000000;
   border: 1px solid #000000;
@@ -922,10 +922,10 @@ div.calendar {
   background: #FFFFFF;
   cursor: pointer;
 }
-.range_design:focus::-ms-fill-lower {
+.range-wrap:focus::-ms-fill-lower {
   background: #3071A9;
 }
-.range_design:focus::-ms-fill-upper {
+.range-wrap:focus::-ms-fill-upper {
   background: #3071A9;
 }
 
@@ -943,4 +943,10 @@ div.calendar {
   height:100px;
   margin-bottom: 30px;
   font-size:35px;
+}
+
+.range-wrap{
+  height: 38px;
+  margin: 10px 0;
+  width: 500%;
 }
